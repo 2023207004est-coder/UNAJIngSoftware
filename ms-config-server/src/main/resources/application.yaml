@@ -1,5 +1,6 @@
 server:
   port: 7070
+
 spring:
   application:
     name: config-server
@@ -11,6 +12,6 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/noetipo/UNAJIngSoftware.git
+          uri: https://github.com/2023207004est-coder/UNAJIngSoftware.git
           searchPaths: config-data
           default-label: main
